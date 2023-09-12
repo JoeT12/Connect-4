@@ -16,5 +16,5 @@ This game allows the player to choose between 3 AI difficulties, should they cho
 ## Game Setup Page
 ![game-page](https://github.com/JoeT12/Connect-4/assets/108418412/2656d93b-7e88-417d-a442-440c5085effd)
 ## Game Page
-Here we can see the "hover" feature in action, as it is red's turn.
+Here we can see the "hover" feature in action, as it is red's turn, and they are hovering over column 3 with their mouse.
 ![game-play](https://github.com/JoeT12/Connect-4/assets/108418412/e32e18d6-0a7c-4254-9272-95550b958765)
