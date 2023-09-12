@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Connect 4</title>
+        <link rel="stylesheet" href="connect4.css">
+        <script src="connect4.js"></script>
+        <script src="ai_functions.js"></script>
+    </head>
+
+    <body>
+        <h1 style="margin-bottom: 0px;">Connect-4</h1>
+        <div id="toprow">
+            <div class="top" id = "1" onmouseover="show_piecetop(1)" onmouseout="remove_piecetop(1)" onclick="drop_piece(1,true)"></div>
+            <div class="top" id = "2" onmouseover="show_piecetop(2)" onmouseout="remove_piecetop(2)" onclick="drop_piece(2,true)"></div>
+            <div class="top" id = "3" onmouseover="show_piecetop(3)" onmouseout="remove_piecetop(3)" onclick="drop_piece(3,true)"></div>
+            <div class="top" id = "4" onmouseover="show_piecetop(4)" onmouseout="remove_piecetop(4)" onclick="drop_piece(4,true)"></div>
+            <div class="top" id = "5" onmouseover="show_piecetop(5)" onmouseout="remove_piecetop(5)" onclick="drop_piece(5,true)"></div>
+            <div class="top" id = "6" onmouseover="show_piecetop(6)" onmouseout="remove_piecetop(6)" onclick="drop_piece(6,true)"></div>
+            <div class="top" id = "7" onmouseover="show_piecetop(7)" onmouseout="remove_piecetop(7)" onclick="drop_piece(7,true)"></div>
+        </div>
+        <div id="board"></div>
+        <br><br>
+        <div id="results"></div>
+        <button id="back" onclick="back()">Back</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </body>
+</html>

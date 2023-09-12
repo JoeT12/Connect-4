@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Connect 4</title>
+        <link rel="stylesheet" href="connect4.css">
+        <script src="connect4.js"></script>
+    </head>
+
+    <body id="body1">
+        
+        <div id="box">
+            <h1>Connect 4</h1>
+            <p>Red:
+            
+            <select id="red" class="combo" onchange="check_preferences()">
+                <option>Human</option>
+                <option>AI</option>
+            </select>
+            </p>
+
+
+
+            <p>Yellow:
+                <select id="yellow" class="combo" onchange="check_preferences()">
+                    <option>AI</option>
+                    <option>Human</option>
+                </select>
+            
+            </p>
+
+            <br>
+
+            <p>AI Difficulty:
+                <select id="difficulty" class="combo">
+                    <option>Easy</option>
+                    <option>Medium</option>
+                    <option>Hard</option>
+                </select>
+            
+            </p>
+
+            <br>
+
+            <button id="play" onclick="play()">PLAY!</button>
+        </div>
+
+
+    </body>
+</html>
