@@ -10,7 +10,11 @@ This game allows the player to choose between 3 AI difficulties, should they cho
 - Reset game button, allowing you to play again once you have completed your game.
 - Computer vs Computer mode, allowing the user to test the AI against itself at ANY difficulty level.
 - Setup page which allows player to choose their and the computers game colour (red/yellow), and difficulty of AI (if applicable).
+- Hover feature, which shows the piece at the top of the column that the current player is "hovering" over with their mouse.
 
-
-
-
+# Screenshots of Program
+## Game Setup Page
+![game-page](https://github.com/JoeT12/Connect-4/assets/108418412/2656d93b-7e88-417d-a442-440c5085effd)
+## Game Page
+Here we can see the "hover" feature in action, as it is red's turn.
+![game-play](https://github.com/JoeT12/Connect-4/assets/108418412/e32e18d6-0a7c-4254-9272-95550b958765)
